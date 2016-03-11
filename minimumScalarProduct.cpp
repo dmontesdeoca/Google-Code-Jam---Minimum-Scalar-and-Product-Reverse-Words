@@ -3,7 +3,7 @@
 #include <list>
 using namespace std;
 
-/*ifstream infile("A-small-practice.txt");        // file it is reading from
+/*ifstream infile("A-small-practice.txt");      // file it is reading from
 ofstream outfile("scalarSmallOutput.txt");      // file it is printing to
 */
 ifstream infile("A-large-practice.txt");        // file it is reading from
