@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stack>
-#include <string>
 #include <sstream>
 #include <fstream>
 using namespace std;
