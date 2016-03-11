@@ -24,7 +24,6 @@ int main(){
     }
 
     return 0;
-
 }
 
 //This function will find the smallest scalar product
@@ -54,7 +53,7 @@ void minScalar(const int &caseIn){
         smallest += (long long int)v1[k]*v2[k];
     }
 
-    outfile << "Case #" << caseIn << ": " << smallest <<endl;
+    outfile << "Case #" << caseIn << ": " << smallest << endl;
 
 }
 
@@ -109,14 +108,13 @@ int pivot(int arr[], const int &first, const int &last, const char &order){
 //if file is good and is not empty (return true)
 bool fileIsValid(){
     if (!infile.good()){
-        cout<<"FILE NOT FOUND!"<<endl;
+        cout << "FILE NOT FOUND!" << endl;
         return false;
     }
     else if(infile.peek() == -1){
-        cout<<"FILE IS EMPTY!"<<endl;
+        cout << "FILE IS EMPTY!" << endl;
         return false;
     }
 
     return true;
 }
-
