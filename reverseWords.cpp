@@ -46,10 +46,10 @@ void reverseLines(const int &numbCase){
         outfile << "Case #" << i+1 << ": ";
 
         while( !storeWords.empty() ){
-            outfile <<storeWords.top()<<" ";
+            outfile << storeWords.top() << " ";
             storeWords.pop();
         }
-        outfile <<endl;
+        outfile << endl;
     }
 
 }
@@ -57,11 +57,11 @@ void reverseLines(const int &numbCase){
 //if file is good and is not empty (return true)
 bool fileIsValid(){
     if (!infile.good()){
-        cout<<"FILE NOT FOUND!"<<endl;
+        cout << "FILE NOT FOUND!" << endl;
         return false;
     }
     else if(infile.peek() == -1){
-        cout<<"FILE IS EMPTY!"<<endl;
+        cout << "FILE IS EMPTY!" << endl;
         return false;
     }
 
