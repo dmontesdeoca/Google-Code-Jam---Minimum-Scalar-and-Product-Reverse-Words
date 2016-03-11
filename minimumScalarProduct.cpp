@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <list>
 using namespace std;
 
 /*ifstream infile("A-small-practice.txt");      // file it is reading from
